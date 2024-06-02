@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Journey</a>
+        <div class="right">
+            <div class="btns lightDark">
+                <ion-icon name="moon-outline"></ion-icon>
+                <ion-icon name="sunny-outline"></ion-icon>
+            </div>
+            <div class="btns menuToggle">
+                <ion-icon name="menu-outline"></ion-icon>
+                <ion-icon name="close-outline"></ion-icon>
+            </div>
+        </div>
+    </header>
+
+    <ul class="navigation">
+        <li><a href="#" class="active"><ion-icon name="home-outline"></ion-icon></a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <section class="main">
+        <video src="rainforest1.mp4" autoplay muted loop type="mp4"></video>
+        <img class="mask" src="tree.jpg" alt="Tree mask">
+        <h2>Forest</h2>
+        <ul class="social">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Journey, your ultimate travel companion. We specialize in providing unforgettable travel experiences. From exotic destinations to luxurious stays, we have it all. Our team of experts ensures that every detail of your trip is meticulously planned and executed.</p>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <ul>
+            <li>Personalized travel itineraries</li>
+            <li>Exclusive discounts on hotels and flights</li>
+            <li>24/7 customer support</li>
+            <li>Comprehensive travel insurance</li>
+            <li>Curated travel guides</li>
+        </ul>
+    </section>
+
+    <section id="packages">
+        <h2>Our Packages</h2>
+        <div class="packages">
+            <button class="package-btn" data-package="usa">USA</button>
+            <button class="package-btn" data-package="france">France</button>
+            <button class="package-btn" data-package="japan">Japan</button>
+            <button class="package-btn" data-package="australia">Australia</button>
+            <button class="package-btn" data-package="brazil">Brazil</button>
+        </div>
+        <div id="package-content">
+            <div class="package-details" id="usa"><br><hr><br>
+                <h3>USA</h3>
+                <p>Explore the vibrant cities, breathtaking national parks, and diverse culture of the USA.</p>
+                <ul>
+                    <li><i class="material-icons">flight_takeoff</i> Flight included</li>
+                    <li><i class="material-icons">local_hotel</i> 7 nights stay</li>
+                    <li><i class="material-icons">local_dining</i> Daily breakfast</li>
+                </ul>
+            </div>
+            <div class="package-details" id="france"><br><hr><br>
+                <h3>France</h3>
+                <p>Experience the romance and elegance of France, from Paris to the French Riviera.</p>
+                <ul>
+                    <li><i class="material-icons">flight_takeoff</i> Flight included</li>
+                    <li><i class="material-icons">local_hotel</i> 5 nights stay</li>
+                    <li><i class="material-icons">local_dining</i> Daily breakfast</li>
+                </ul>
+            </div>
+            <div class="package-details" id="japan"><br><hr><br>
+                <h3>Japan</h3>
+                <p>Discover the blend of traditional and modern in Japan, from Tokyo to Kyoto.</p>
+                <ul>
+                    <li><i class="material-icons">flight_takeoff</i> Flight included</li>
+                    <li><i class="material-icons">local_hotel</i> 6 nights stay</li>
+                    <li><i class="material-icons">local_dining</i> Daily breakfast</li>
+                </ul>
+            </div>
+            <div class="package-details" id="australia"><br><hr><br>
+                <h3>Australia</h3>
+                <p>Experience the diverse landscapes and vibrant cities of Australia.</p>
+                <ul>
+                    <li><i class="material-icons">flight_takeoff</i> Flight included</li>
+                    <li><i class="material-icons">local_hotel</i> 8 nights stay</li>
+                    <li><i class="material-icons">local_dining</i> Daily breakfast</li>
+                </ul>
+            </div>
+            <div class="package-details" id="brazil"><br><hr><br>
+                <h3>Brazil</h3>
+                <p>Enjoy the stunning beaches, lively culture, and natural wonders of Brazil.</p>
+                <ul>
+                    <li><i class="material-icons">flight_takeoff</i> Flight included</li>
+                    <li><i class="material-icons">local_hotel</i> 7 nights stay</li>
+                    <li><i class="material-icons">local_dining</i> Daily breakfast</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@journey.com</p>
+        <p>Phone: 1234567890</p>
+        <p>Address: 123 Travel Road, Adventure City, World</p>
+    </section>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+    
+</body>
+</html>
